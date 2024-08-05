@@ -17,7 +17,7 @@ const Deals = () => {
   //   slidesToScroll: 1
   // };
   return (
-    <div className='min-h-screen flex flex-col justify-center items-center lg:px-32 px-10'>
+    <div className='min-h-screen flex flex-col justify-center items-center lg:px-32 px-10 py-16'>
         <h1 className='text-4xl text text-center pt-15 pb-10'>Hot Deals</h1>
          
         <div className='flex flex-wrap gap-10 justify-center hover: transition-transform ease-in-out'>

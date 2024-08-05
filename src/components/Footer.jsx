@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaFacebook, FaTwitter, FaInstagram, FaCommentDots } from 'react-icons/fa';
+
 
 const Footer = () => {
     return (
@@ -42,16 +44,23 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className='flex md:flex-row py-4 px-5 md:px-10 justify-between flex-col gap-y-3'>
+            <div className='flex md:flex-row py-4 px-5 md:px-10 justify-between flex-col gap-y-5'>
                 <div>
                     <p>
-                        @copyright developed by
+                        @Copyright developed by
                         <span className='text-brightColor'>  Daniel</span> |
                         All rights reserved
                     </p>
                 </div>
-                <div>
-                    <h1>Lorem, ipsum dolor.</h1>
+                <div className='flex flex-row gap-3'>
+                    <FaFacebook size={25} className='hover:text-brightColor text-white' />
+                    <FaTwitter size={25} className='hover:text-brightColor text-white' />
+                    <FaInstagram size={25} className='hover:text-brightColor text-white' />
+                    <FaCommentDots size={25} className='hover:text-brightColor text-white' />
+                    {/* <FaFacebook size={25} color="#3b5998" />
+                    <FaTwitter size={25} color="#1DA1F2" />
+                    <FaInstagram size={25} color="#E4405F" />
+                    <FaCommentDots size={25} color="#fff" /> */}
                 </div>
             </div>
 
